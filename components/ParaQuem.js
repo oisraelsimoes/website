@@ -18,7 +18,7 @@ export default function ParaQuem() {
       <div className="container-x grid grid-cols-1 gap-14 lg:grid-cols-2 lg:items-center">
         <Reveal>
           <div className="grid grid-cols-2 gap-4">
-            <div className="relative aspect-[3/4] overflow-hidden translate-y-6">
+            <div className="relative aspect-[3/4] overflow-hidden">
               <Image
                 src="/images/colorful-brain-talk.jpg"
                 alt="Israel Simões palestrando sobre neurociência aplicada para plateia corporativa"
