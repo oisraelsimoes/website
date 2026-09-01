@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-[100svh] overflow-hidden bg-ink">
       <div className="container-x relative z-10 grid grid-cols-1 items-center gap-10 pb-16 pt-32 sm:pb-20 lg:min-h-[100svh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-28">
         <div className="relative z-20 order-2 lg:order-1 lg:pl-10 xl:pl-20">
-          <h1 className="font-serif font-normal uppercase leading-[0.95] tracking-tight text-ivory text-[3.6rem] sm:text-8xl lg:text-[6.5rem]">
+          <h1 className="font-serif font-normal leading-[0.95] tracking-tight text-ivory text-[3.6rem] sm:text-8xl lg:text-[6.5rem]">
             Israel
             <br />
             <em className="text-accent italic">Simões</em>
