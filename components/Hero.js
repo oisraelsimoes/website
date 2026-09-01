@@ -6,10 +6,10 @@ export default function Hero() {
       <div className="container-x relative z-10 grid grid-cols-1 items-center gap-10 pb-16 pt-32 sm:pb-20 lg:min-h-[100svh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-28">
         <div className="relative z-20 order-2 lg:order-1 lg:pl-10 xl:pl-20">
           <h1 className="inline-block text-center tracking-tight">
-            <span className="relative z-10 block font-playfair font-normal leading-[0.95] text-ivory text-[3.6rem] sm:text-8xl lg:text-[6.5rem]">
+            <span className="relative z-10 block font-playfair font-normal leading-[0.95] text-ivory text-[4.1rem] sm:text-[6.9rem] lg:text-[7.5rem]">
               Israel
             </span>
-            <span className="relative z-0 -mt-1 block font-signature font-normal leading-none text-accent text-[4.1rem] sm:-mt-4 sm:text-[5.6rem] lg:-mt-6 lg:text-[7.8rem]">
+            <span className="relative z-0 -mt-[0.3rem] block font-signature font-normal leading-none text-accent text-[4.7rem] sm:-mt-[1.15rem] sm:text-[6.4rem] lg:-mt-[1.7rem] lg:text-[9rem]">
               Simões
             </span>
           </h1>
