@@ -9,7 +9,7 @@ export default function Hero() {
             <span className="relative z-10 block font-playfair font-normal leading-[0.95] text-ivory text-[3.6rem] sm:text-8xl lg:text-[6.5rem]">
               Israel
             </span>
-            <span className="relative z-0 -ml-10 -mt-5 block font-signature font-normal leading-none text-accent text-[5.6rem] sm:-ml-16 sm:-mt-10 sm:text-[7.5rem] lg:-ml-24 lg:-mt-14 lg:text-[10.5rem]">
+            <span className="relative z-0 -ml-10 -mt-3 block font-signature font-normal leading-none text-accent text-[4.6rem] sm:-ml-16 sm:-mt-7 sm:text-[6.2rem] lg:-ml-24 lg:-mt-10 lg:text-[8.7rem]">
               Simões
             </span>
           </h1>
