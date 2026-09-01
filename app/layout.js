@@ -1,4 +1,10 @@
-import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
+import {
+  Fraunces,
+  Inter,
+  IBM_Plex_Mono,
+  Playfair_Display,
+  Mrs_Saint_Delafield,
+} from "next/font/google";
 import "./globals.css";
 import { SITE } from "@/lib/config";
 
@@ -7,6 +13,21 @@ const fraunces = Fraunces({
   variable: "--font-fraunces",
   weight: ["400", "500", "600", "700", "900"],
   style: ["normal", "italic"],
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
+
+const signature = Mrs_Saint_Delafield({
+  subsets: ["latin"],
+  variable: "--font-signature",
+  weight: ["400"],
   display: "swap",
 });
 
@@ -91,7 +112,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR" className={`${fraunces.variable} ${inter.variable} ${plexMono.variable}`}>
+    <html
+      lang="pt-BR"
+      className={`${fraunces.variable} ${inter.variable} ${plexMono.variable} ${playfair.variable} ${signature.variable}`}
+    >
       <body className="font-sans antialiased">
         {children}
         
