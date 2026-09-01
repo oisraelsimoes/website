@@ -3,7 +3,7 @@ import {
   Inter,
   IBM_Plex_Mono,
   Playfair_Display,
-  Mrs_Saint_Delafield,
+  Alex_Brush,
 } from "next/font/google";
 import "./globals.css";
 import { SITE } from "@/lib/config";
@@ -24,7 +24,7 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
-const signature = Mrs_Saint_Delafield({
+const signature = Alex_Brush({
   subsets: ["latin"],
   variable: "--font-signature",
   weight: ["400"],
