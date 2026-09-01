@@ -27,7 +27,7 @@ export default function Galeria() {
           </p>
         </Reveal>
 
-        <div className="mt-12 grid grid-cols-2 auto-rows-[160px] gap-4 sm:grid-cols-4 sm:auto-rows-[200px]">
+        <div className="mt-12 grid grid-cols-2 auto-rows-[160px] gap-4 sm:grid-cols-4 sm:auto-rows-[200px] sm:grid-flow-dense">
           {FOTOS.map((f, i) => (
             <Reveal key={f.src} delay={(i % 4) * 70} className={f.span || ""}>
               <div className="group relative h-full w-full overflow-hidden">

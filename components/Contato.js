@@ -92,7 +92,7 @@ export default function Contato() {
               </a>
             </div>
 
-            <div className="flex flex-col gap-8 sm:pt-2 lg:items-end">
+            <div className="flex flex-col gap-8 sm:pt-2 lg:items-start">
               {CANAIS.map((c) => (
                 <a
                   key={c.label}
