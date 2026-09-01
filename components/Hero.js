@@ -5,13 +5,17 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-[100svh] overflow-hidden bg-ink">
       <div className="container-x relative z-10 grid grid-cols-1 items-center gap-10 pb-16 pt-32 sm:pb-20 lg:min-h-[100svh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-28">
         <div className="relative z-20 order-2 lg:order-1 lg:pl-10 xl:pl-20">
-          <h1 className="inline-block text-center tracking-tight">
-            <span className="relative z-10 block font-playfair font-normal leading-[0.95] text-ivory text-[4.1rem] sm:text-[6.9rem] lg:text-[7.5rem]">
-              Israel
-            </span>
-            <span className="relative z-0 -mt-[0.3rem] block font-signature font-normal leading-none text-accent text-[4.7rem] sm:-mt-[1.15rem] sm:text-[6.4rem] lg:-mt-[1.7rem] lg:text-[9rem]">
-              Simões
-            </span>
+          <h1 className="tracking-tight">
+            <div className="pb-8 sm:pb-12 lg:pb-16">
+              <div className="relative inline-block">
+                <span className="relative z-10 block font-playfair font-normal leading-[0.95] text-ivory text-[4.1rem] sm:text-[6.9rem] lg:text-[7.5rem]">
+                  Israel
+                </span>
+                <span className="absolute left-1/2 top-full z-0 block -translate-x-1/2 -translate-y-[0.3rem] whitespace-nowrap font-signature font-normal leading-none text-accent text-[4.7rem] sm:-translate-y-[1.15rem] sm:text-[6.4rem] lg:-translate-y-[1.7rem] lg:text-[9rem]">
+                  Simões
+                </span>
+              </div>
+            </div>
           </h1>
 
           <div className="hairline my-7 max-w-xs" />
