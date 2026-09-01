@@ -7,8 +7,8 @@ const FOTOS = [
   { src: "/images/community-talk.jpg", alt: "Israel Simões palestrando sobre saúde mental e comportamento" },
   { src: "/images/patrus-talks.jpg", alt: "Israel Simões em gravação do Patrus Talks" },
   { src: "/images/warehouse.jpg", alt: "Israel Simões em imersão operacional na Patrus Transportes", span: "sm:row-span-2" },
-  { src: "/images/event-7th.jpg", alt: "Israel Simões no 7th Experience Executive Club", pos: "50% 45%" },
-  { src: "/images/gala-award.jpg", alt: "Israel Simões no Prêmio Excelência em Saúde", pos: "50% 15%" },
+  { src: "/images/event-7th.jpg", alt: "Israel Simões no 7th Experience Executive Club", span: "sm:row-span-2" },
+  { src: "/images/gala-award.jpg", alt: "Israel Simões no Prêmio Excelência em Saúde", span: "sm:row-span-2" },
   { src: "/images/studio-production.jpg", alt: "Bastidores de produção de conteúdo com Israel Simões" },
 ];
 
