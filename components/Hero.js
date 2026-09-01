@@ -5,11 +5,11 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-[100svh] overflow-hidden bg-ink">
       <div className="container-x relative z-10 grid grid-cols-1 items-center gap-10 pb-16 pt-32 sm:pb-20 lg:min-h-[100svh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-28">
         <div className="relative z-20 order-2 lg:order-1 lg:pl-10 xl:pl-20">
-          <h1 className="tracking-tight">
+          <h1 className="inline-block text-center tracking-tight">
             <span className="relative z-10 block font-playfair font-normal leading-[0.95] text-ivory text-[3.6rem] sm:text-8xl lg:text-[6.5rem]">
               Israel
             </span>
-            <span className="relative z-0 -ml-10 -mt-3 block font-signature font-normal leading-none text-accent text-[4.6rem] sm:-ml-16 sm:-mt-7 sm:text-[6.2rem] lg:-ml-24 lg:-mt-10 lg:text-[8.7rem]">
+            <span className="relative z-0 -mt-3 block font-signature font-normal leading-none text-accent text-[4.1rem] sm:-mt-7 sm:text-[5.6rem] lg:-mt-10 lg:text-[7.8rem]">
               Simões
             </span>
           </h1>
