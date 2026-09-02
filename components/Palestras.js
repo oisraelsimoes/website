@@ -279,7 +279,7 @@ export default function Palestras() {
 
         <Reveal delay={100}>
           <div className="mt-14 rounded-2xl border border-dashed border-ivory/15 p-8 sm:p-10">
-            <p className="eyebrow mb-5">Em desenvolvimento</p>
+            <p className="eyebrow mb-5">Lançamentos para 2027</p>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
               {EM_BREVE.map((e) => (
                 <div key={e.titulo} className="flex gap-4">
